@@ -36,3 +36,18 @@
    ```bash
    python app.py
    ```
+
+## AWS-CICD-Deployment-with-Github-Actions
+
+1. **Login to AWS console**
+
+2.  **Create IAM user for deployment**
+
+    - **With specific access**: 
+    1. EC2 Access : It is virtual machine
+    2. ECR: Elastic Container registry to save your docker image in aws
+
+    - **Description: About the deployment**
+    1. Build Docker image of source code
+    2. Push your Docker image to ECR
+    
