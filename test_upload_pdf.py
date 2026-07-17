@@ -1,0 +1,1 @@
+import requests; files={"file": ("test_text.pdf", open("test_text.pdf", "rb"), "application/pdf")}; data={"thread_id": "123"}; r=requests.post("http://127.0.0.1:8080/upload", files=files, data=data); print(r.json())

@@ -1,0 +1,1 @@
+import requests; f = open("test.txt", "w"); f.write("test content"); f.close(); files={"file": ("test.txt", open("test.txt", "rb"), "text/plain")}; data={"thread_id": "123"}; r=requests.post("http://127.0.0.1:8080/upload", files=files, data=data); print(r.json())
