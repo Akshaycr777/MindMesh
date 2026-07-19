@@ -59,21 +59,21 @@
     2. AmazonEC2FullAccess
 
 3. **Create ECR repo to store/save docker image**
-   - Save the URI:
+   - Save the URI: 431445330726.dkr.ecr.us-east-1.amazonaws.com/mindmesh
 
 4. **Create EC2 machine (Ubuntu)**
 
 5. **Open EC2 and Install docker in EC2 Machine**
 
-   - Optional
-   sudo apt-get update -y
-   sudo apt-get upgrade
+   ```Optional```
+   - sudo apt-get update -y
+   - sudo apt-get upgrade
 
-   - Required
-   curl -fsSL 
-   sudo sh get-docker.sh
-   sudo usermod -aG docker ubuntu
-   newgrp docker
+   ```Required```
+   - curl -fsSL http://get.docker.com -o get-docker.sh
+   - sudo sh get-docker.sh
+   - sudo usermod -aG docker ubuntu
+   - newgrp docker
 
 6. **Configure EC2 as self-hosted runner:**
    setting>actions>runner>new slef hosted runner>choose os> then run command one by one
