@@ -61,7 +61,7 @@
 3. **Create ECR repo to store/save docker image**
    - Save the URI: 431445330726.dkr.ecr.us-east-1.amazonaws.com/mindmesh
 
-4. **Create EC2 machine (Ubuntu)**aa
+4. **Create EC2 machine (Ubuntu)**
 
 5. **Open EC2 and Install docker in EC2 Machine**
 
