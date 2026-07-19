@@ -72,9 +72,9 @@ jobs:
           ECR_REPOSITORY: ${{ secrets.ECR_REPO }}
           IMAGE_TAG: latest
         run: |
-          docker run -d 
+          docker run -d \
           --name agentic-chatbot \
-          -- restart always \
+          --restart always \
           -p 8080:8080 \
           -e GOOGLE_API_KEY=${{ secrets.GOOGLE_API_KEY }} \
           -e GOOGLE_MODEL=${{ secrets.GOOGLE_MODEL }} \
