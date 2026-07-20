@@ -540,7 +540,11 @@
         let threadId = localStorage.getItem("thread_id");
 
         if (!threadId) {
-            threadId = crypto.randomUUID();
+            threadId =
+                (window.crypto && crypto.randomUUID)
+                    ? crypto.randomUUID()
+                    : Date.now().toString() + "-" + Math.random().toString(36).slice(2);
+
             localStorage.setItem("thread_id", threadId);
         }
 
