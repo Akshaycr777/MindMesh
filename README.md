@@ -1,5 +1,27 @@
 # MindMesh
 
+MindMesh is an AI-powered conversational chatbot that enables users to interact with documents through natural language. It leverages a Retrieval-Augmented Generation (RAG) pipeline to extract, index, retrieve, and generate context-aware responses from uploaded knowledge sources, delivering accurate and relevant answers while minimizing LLM hallucinations.
+
+The application supports intelligent document processing, semantic search, conversation history, and a responsive web interface, making it suitable for enterprise knowledge management, customer support, and internal AI assistant use cases.
+
+**Technical Competencies Demonstrated**
+1. Generative AI & LLMs
+2. Retrieval-Augmented Generation (RAG)
+3. Prompt Engineering
+4. Semantic Search & Vector Embeddings
+5. Hybrid Search (Vector + Keyword Retrieval)
+6. Document Parsing & Text Extraction (PDF/DOCX/TXT)
+7. Text Chunking & Embedding Generation
+8. Vector Database Integration
+9. Python
+10. Flask / FastAPI
+11. HTML, CSS & JavaScript
+12. REST API Development
+13. Git & GitHub
+14. Model Evaluation & Response Optimization
+15. Context Management & Conversation Memory
+16. End-to-End AI Application Development & Deployment
+
 ## How to Run MindMesh
 
 1. **Clone the Repository:**
